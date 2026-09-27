@@ -1,0 +1,406 @@
+{
+  "reports": {
+    "Enrollment-only | Logistic Regression": {
+      "Dropout": {
+        "precision": 0.6804979253112033,
+        "recall": 0.5774647887323944,
+        "f1-score": 0.6247619047619047,
+        "support": 284.0
+      },
+      "Enrolled": {
+        "precision": 0.2967032967032967,
+        "recall": 0.5094339622641509,
+        "f1-score": 0.375,
+        "support": 159.0
+      },
+      "Graduate": {
+        "precision": 0.7008086253369272,
+        "recall": 0.5882352941176471,
+        "f1-score": 0.6396063960639606,
+        "support": 442.0
+      },
+      "accuracy": 0.5706214689265536,
+      "macro avg": {
+        "precision": 0.5593366157838091,
+        "recall": 0.5583780150380641,
+        "f1-score": 0.5464561002752885,
+        "support": 885.0
+      },
+      "weighted avg": {
+        "precision": 0.6216888670769805,
+        "recall": 0.5706214689265536,
+        "f1-score": 0.5873032858900018,
+        "support": 885.0
+      }
+    },
+    "Enrollment-only | Decision Tree": {
+      "Dropout": {
+        "precision": 0.7298850574712644,
+        "recall": 0.4471830985915493,
+        "f1-score": 0.5545851528384279,
+        "support": 284.0
+      },
+      "Enrolled": {
+        "precision": 0.2574468085106383,
+        "recall": 0.7610062893081762,
+        "f1-score": 0.3847376788553259,
+        "support": 159.0
+      },
+      "Graduate": {
+        "precision": 0.7883817427385892,
+        "recall": 0.4298642533936652,
+        "f1-score": 0.5563689604685212,
+        "support": 442.0
+      },
+      "accuracy": 0.49491525423728816,
+      "macro avg": {
+        "precision": 0.5919045362401639,
+        "recall": 0.5460178804311302,
+        "f1-score": 0.4985639307207584,
+        "support": 885.0
+      },
+      "weighted avg": {
+        "precision": 0.6742216148762565,
+        "recall": 0.49491525423728816,
+        "f1-score": 0.5249610789505048,
+        "support": 885.0
+      }
+    },
+    "Enrollment-only | Random Forest": {
+      "Dropout": {
+        "precision": 0.6513409961685823,
+        "recall": 0.5985915492957746,
+        "f1-score": 0.6238532110091743,
+        "support": 284.0
+      },
+      "Enrolled": {
+        "precision": 0.41304347826086957,
+        "recall": 0.11949685534591195,
+        "f1-score": 0.18536585365853658,
+        "support": 159.0
+      },
+      "Graduate": {
+        "precision": 0.6453287197231834,
+        "recall": 0.8438914027149321,
+        "f1-score": 0.7313725490196078,
+        "support": 442.0
+      },
+      "accuracy": 0.6350282485875707,
+      "macro avg": {
+        "precision": 0.5699043980508784,
+        "recall": 0.5206599357855396,
+        "f1-score": 0.513530537895773,
+        "support": 885.0
+      },
+      "weighted avg": {
+        "precision": 0.6055254803084776,
+        "recall": 0.6350282485875707,
+        "f1-score": 0.5987730500847226,
+        "support": 885.0
+      }
+    },
+    "Enrollment-only | Gradient Boosting": {
+      "Dropout": {
+        "precision": 0.6181818181818182,
+        "recall": 0.5985915492957746,
+        "f1-score": 0.6082289803220036,
+        "support": 284.0
+      },
+      "Enrolled": {
+        "precision": 0.3050847457627119,
+        "recall": 0.33962264150943394,
+        "f1-score": 0.32142857142857145,
+        "support": 159.0
+      },
+      "Graduate": {
+        "precision": 0.6905311778290993,
+        "recall": 0.6764705882352942,
+        "f1-score": 0.6834285714285714,
+        "support": 442.0
+      },
+      "accuracy": 0.5909604519774011,
+      "macro avg": {
+        "precision": 0.5379325805912099,
+        "recall": 0.5382282596801676,
+        "f1-score": 0.5376953743930488,
+        "support": 885.0
+      },
+      "weighted avg": {
+        "precision": 0.5980642842264061,
+        "recall": 0.5909604519774011,
+        "f1-score": 0.5942594371073678,
+        "support": 885.0
+      }
+    },
+    "Full (with semester results) | Logistic Regression": {
+      "Dropout": {
+        "precision": 0.8177966101694916,
+        "recall": 0.6795774647887324,
+        "f1-score": 0.7423076923076923,
+        "support": 284.0
+      },
+      "Enrolled": {
+        "precision": 0.4156378600823045,
+        "recall": 0.6352201257861635,
+        "f1-score": 0.5024875621890548,
+        "support": 159.0
+      },
+      "Graduate": {
+        "precision": 0.8571428571428571,
+        "recall": 0.7873303167420814,
+        "f1-score": 0.8207547169811321,
+        "support": 442.0
+      },
+      "accuracy": 0.7254237288135593,
+      "macro avg": {
+        "precision": 0.6968591091315511,
+        "recall": 0.7007093024389924,
+        "f1-score": 0.6885166571592931,
+        "support": 885.0
+      },
+      "weighted avg": {
+        "precision": 0.765195254122446,
+        "recall": 0.7254237288135593,
+        "f1-score": 0.7384005558294968,
+        "support": 885.0
+      }
+    },
+    "Full (with semester results) | Decision Tree": {
+      "Dropout": {
+        "precision": 0.8027522935779816,
+        "recall": 0.6161971830985915,
+        "f1-score": 0.6972111553784861,
+        "support": 284.0
+      },
+      "Enrolled": {
+        "precision": 0.34036144578313254,
+        "recall": 0.710691823899371,
+        "f1-score": 0.46028513238289204,
+        "support": 159.0
+      },
+      "Graduate": {
+        "precision": 0.8507462686567164,
+        "recall": 0.6447963800904978,
+        "f1-score": 0.7335907335907336,
+        "support": 442.0
+      },
+      "accuracy": 0.6474576271186441,
+      "macro avg": {
+        "precision": 0.6646200026726102,
+        "recall": 0.6572284623628201,
+        "f1-score": 0.6303623404507039,
+        "support": 885.0
+      },
+      "weighted avg": {
+        "precision": 0.7436485559343882,
+        "recall": 0.6474576271186441,
+        "f1-score": 0.6728140208174849,
+        "support": 885.0
+      }
+    },
+    "Full (with semester results) | Random Forest": {
+      "Dropout": {
+        "precision": 0.7912087912087912,
+        "recall": 0.7605633802816901,
+        "f1-score": 0.7755834829443446,
+        "support": 284.0
+      },
+      "Enrolled": {
+        "precision": 0.5517241379310345,
+        "recall": 0.3018867924528302,
+        "f1-score": 0.3902439024390244,
+        "support": 159.0
+      },
+      "Graduate": {
+        "precision": 0.7847619047619048,
+        "recall": 0.9321266968325792,
+        "f1-score": 0.8521199586349535,
+        "support": 442.0
+      },
+      "accuracy": 0.7638418079096045,
+      "macro avg": {
+        "precision": 0.7092316113005769,
+        "recall": 0.6648589565223665,
+        "f1-score": 0.6726491146727742,
+        "support": 885.0
+      },
+      "weighted avg": {
+        "precision": 0.744962933942478,
+        "recall": 0.7638418079096045,
+        "f1-score": 0.7445779789385855,
+        "support": 885.0
+      }
+    },
+    "Full (with semester results) | Gradient Boosting": {
+      "Dropout": {
+        "precision": 0.7824427480916031,
+        "recall": 0.721830985915493,
+        "f1-score": 0.7509157509157509,
+        "support": 284.0
+      },
+      "Enrolled": {
+        "precision": 0.4482758620689655,
+        "recall": 0.49056603773584906,
+        "f1-score": 0.46846846846846846,
+        "support": 159.0
+      },
+      "Graduate": {
+        "precision": 0.8307349665924276,
+        "recall": 0.8438914027149321,
+        "f1-score": 0.8372615039281706,
+        "support": 442.0
+      },
+      "accuracy": 0.7412429378531074,
+      "macro avg": {
+        "precision": 0.6871511922509987,
+        "recall": 0.6854294754554248,
+        "f1-score": 0.6855485744374633,
+        "support": 885.0
+      },
+      "weighted avg": {
+        "precision": 0.7465248110291907,
+        "recall": 0.7412429378531074,
+        "f1-score": 0.7432950785116509,
+        "support": 885.0
+      }
+    }
+  },
+  "cms": {
+    "Enrollment-only | Logistic Regression": [
+      [
+        164,
+        65,
+        55
+      ],
+      [
+        22,
+        81,
+        56
+      ],
+      [
+        55,
+        127,
+        260
+      ]
+    ],
+    "Enrollment-only | Decision Tree": [
+      [
+        127,
+        133,
+        24
+      ],
+      [
+        11,
+        121,
+        27
+      ],
+      [
+        36,
+        216,
+        190
+      ]
+    ],
+    "Enrollment-only | Random Forest": [
+      [
+        170,
+        12,
+        102
+      ],
+      [
+        37,
+        19,
+        103
+      ],
+      [
+        54,
+        15,
+        373
+      ]
+    ],
+    "Enrollment-only | Gradient Boosting": [
+      [
+        170,
+        46,
+        68
+      ],
+      [
+        39,
+        54,
+        66
+      ],
+      [
+        66,
+        77,
+        299
+      ]
+    ],
+    "Full (with semester results) | Logistic Regression": [
+      [
+        193,
+        65,
+        26
+      ],
+      [
+        26,
+        101,
+        32
+      ],
+      [
+        17,
+        77,
+        348
+      ]
+    ],
+    "Full (with semester results) | Decision Tree": [
+      [
+        175,
+        85,
+        24
+      ],
+      [
+        20,
+        113,
+        26
+      ],
+      [
+        23,
+        134,
+        285
+      ]
+    ],
+    "Full (with semester results) | Random Forest": [
+      [
+        216,
+        23,
+        45
+      ],
+      [
+        43,
+        48,
+        68
+      ],
+      [
+        14,
+        16,
+        412
+      ]
+    ],
+    "Full (with semester results) | Gradient Boosting": [
+      [
+        205,
+        48,
+        31
+      ],
+      [
+        36,
+        78,
+        45
+      ],
+      [
+        21,
+        48,
+        373
+      ]
+    ]
+  }
+}

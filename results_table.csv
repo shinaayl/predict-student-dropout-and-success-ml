@@ -1,0 +1,9 @@
+stage,model,accuracy,macro_f1
+Enrollment-only,Logistic Regression,0.571,0.546
+Enrollment-only,Decision Tree,0.495,0.499
+Enrollment-only,Random Forest,0.635,0.514
+Enrollment-only,Gradient Boosting,0.591,0.538
+Full (with semester results),Logistic Regression,0.725,0.689
+Full (with semester results),Decision Tree,0.647,0.63
+Full (with semester results),Random Forest,0.764,0.673
+Full (with semester results),Gradient Boosting,0.741,0.686
